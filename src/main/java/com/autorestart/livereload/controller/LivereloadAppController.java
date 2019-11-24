@@ -1,4 +1,4 @@
-package com.autorestart.livereload;
+package com.autorestart.livereload.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
