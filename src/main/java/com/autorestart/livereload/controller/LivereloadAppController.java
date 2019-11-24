@@ -12,4 +12,9 @@ public class LivereloadAppController {
         model.addAttribute("msg", "This is a test");
         return "home";
     }
+
+    @RequestMapping("/stacktrace")
+    public String handleException() throws Exception {
+        throw new Exception("stacktrace error");
+    }
 }
